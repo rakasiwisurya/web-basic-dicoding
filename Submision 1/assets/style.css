@@ -10,46 +10,48 @@ body {
     padding: 0;
 }
 
-h2, h3 {
-    color: #00a2c6;
+li {
+    list-style-type: none;
 }
 
+/* header */
 header {
-    display: inline;
-}
-
-.jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: #00c8eb;
-    text-align: center;
-    color: white;
-}
-
-nav {
+    position: fixed;
+    top: 0px;
     background-color: #00a2c6;
-    padding: 5px;
-    position: sticky;
-    top: 0;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    width: 100%;
 }
 
-nav a {
+.header-logo {
+    float: left;
+    padding: 20px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 800;
+}
+
+.header-list {
+    float: left;
+}
+
+.header-list ul li {
+    display: inline-block;
+}
+
+.header-list ul li a {
+    padding: 20px 10px;
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
-    font-weight: bold;
+.header-list li a:hover {
+    background-color: rgba(231, 247, 247, 0.849);
+    color: #7cdbf0;
 }
 
-nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
+/* main */
 main {
     padding: 20px;
     overflow: auto;
@@ -80,12 +82,17 @@ aside {
     padding-left: 20px;
 }
 
-.profile header {
+.profile img {
+    width: 200px;
+}
+
+.profile-title {
     text-align: center;
 }
 
-.profile img {
-    width: 200px;
+table {
+    font-size: 12px;
+    margin: 0px auto;
 }
 
 footer {
