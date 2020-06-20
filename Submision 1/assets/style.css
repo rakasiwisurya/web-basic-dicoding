@@ -91,6 +91,20 @@ main {
     height: 580px;
 }
 
+#home h1 {
+    font-size: 15px;
+    float: left;
+}
+
+#home p {
+    float: left;
+}
+
+#home img {
+    float: right;
+    height: 100px;
+}
+
 /* about */
 .about-article {
     float: left;
