@@ -25,6 +25,20 @@ li {
     margin: 0px auto;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* header */
 header {
     position: fixed;
@@ -67,28 +81,14 @@ header {
 
 /* main */
 main {
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 70px;
     overflow: auto;
 }
 
-/* #content {
-    float: left;
-    width: 75%;
-} */
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.featured-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
+/* home */
+#home {
+    background-color: cyan;
+    height: 580px;
 }
 
 /* about */
