@@ -26,10 +26,11 @@ li {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    background-color: white;
 }
 
 .featured-image {
@@ -43,7 +44,7 @@ li {
 header {
     position: fixed;
     top: 0px;
-    background-color: #00a2c6;
+    background-color: #4c47a0;
     font-weight: 400;
     color: white;
     font-size: 18px;
@@ -124,11 +125,55 @@ main {
 
 /* popular */
 #popular {
-    height: 580px;
-    color: cyan;
+    height: 700px;
+    background-color: #6C63FF;
+    text-align: center;
+    padding: 80px 0px 0px;
+}
+
+#popular h2 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#popular p {
+    text-align: justify;
+}
+
+.sub-heading {
+    color: white;
+    padding-bottom: 30px;
+}
+
+#popular h3 {
+    padding-bottom: 15px;
+}
+
+#popular img {
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.popular-content {
+    padding-right: 10px;
+    display: inline-block;
+    width: 33%;
+}
+
+/* partner */
+#partners {
+    padding: 20px;
+    height: 500px;
 }
 
 /* about */
+#about {
+    height: 580px;
+    background-color: cyan;
+    padding: 40px;
+}
+
 .about-article {
     float: left;
     width: 75%;
@@ -167,7 +212,7 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 1000px){
-    #content,
+    .about-article,
     aside {
         width: 100%;
         padding: 0;
