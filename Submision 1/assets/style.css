@@ -163,8 +163,27 @@ main {
 
 /* partner */
 #partners {
-    padding: 20px;
-    height: 500px;
+    height: 340px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#partners h2 {
+    margin: 0px auto 20px;
+    width: 75%;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.partner-image {
+    margin: 0px auto;
+}
+
+#partners img {
+    height: 100px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 /* about */
@@ -174,7 +193,7 @@ main {
     padding: 40px;
 }
 
-.about-article {
+.history {
     float: left;
     width: 75%;
 }
