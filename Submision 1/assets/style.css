@@ -122,6 +122,12 @@ main {
     height: 300px;
 }
 
+/* popular */
+#popular {
+    height: 580px;
+    color: cyan;
+}
+
 /* about */
 .about-article {
     float: left;
