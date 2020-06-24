@@ -38,7 +38,7 @@
         display: block;
     }
 
-    .header-list {
+    .header-list ul li {
         display: none;
     }
 
