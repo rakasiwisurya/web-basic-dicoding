@@ -1,10 +1,13 @@
 const menuIcon = document.querySelector('.menu-icon');
-const headerList = document.querySelectorAll('.header-list ul li');
+const liheaderList = document.querySelectorAll('.header-list ul li');
+const headerList = document.querySelector('.header-list');
 
 menuIcon.addEventListener('click', () => {
-    headerList.style.display = 'inline-block';
-    headerList.style.backgroundColor = 'red';
-    // headerList.style.zIndex = '11';
-    // headerList.style.position = 'relative';
-    // headerList.style.top = '50px';
+    headerList.classList.toggle("responsive");
 });
+
+for (let i = 0; i < liheaderList.length; i++) {
+    liheaderList[i].addEventListener('click', () => {
+        headerList.classList.toggle("responsive");
+    });
+}

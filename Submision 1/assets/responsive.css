@@ -38,8 +38,30 @@
         display: block;
     }
 
+    .header-list.responsive {
+        position: absolute;
+        left: 0;
+        top: 65px;
+        animation-name: dropdown;
+        animation-duration: 0.8s;
+    }
+
+    @keyframes dropdown {
+        0%   {top:0px;}
+        100% {top:65px;}
+    }
+
     .header-list ul li {
         display: none;
+    }
+
+    .header-list.responsive ul li {
+        display: block;
+        background-color: white;
+    }
+
+    .header-list.responsive ul li a {
+        width: 670px;
     }
 
     #home {

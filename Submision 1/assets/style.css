@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -53,7 +57,7 @@ header {
 
 .header-logo {
     float: left;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     font-size: 18px;
     font-weight: 800;
     color: #5f5d60;
@@ -83,7 +87,9 @@ header {
 .menu-icon {
     float: left;
     font-size: 25px;
-    padding: 18px 0;
+    margin-left: -15px;
+    padding: 0px 20px;
+    line-height: 65px;
     display: none;
     color: #5f5d60;
 }
